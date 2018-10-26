@@ -1,0 +1,294 @@
+.images img {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+h2 {
+    position: absolute;
+    top: -68px;
+    padding: 5px;
+    width: 93%;
+    background-color: #999999;
+}
+.button, .button-2, .button-3, .button-4, .button-5{
+    margin-bottom: 40px;
+    padding: 30px;
+    background-color: #ffc109;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 5px 5px 30px 5px rgba(102, 102, 102, 0.3);
+    
+}
+.txt-4 h2 {
+    position: absolute;
+    top: -106px;
+    padding: 5px;
+    width: 93%;
+    background-color: #999999;
+}
+.txt h2 {
+    position: absolute;
+    top: -28vh;
+    padding-left: 20px;
+    background-color: #999999;
+}
+
+.button-buy {
+    color: white;
+}
+.footer-container {
+    background-color: #666666;
+    padding: 30px;
+    color: white;
+    font-size: 9px;
+}
+.images-2 img{
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.images-3 img{
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.images-4 img{
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.images-5 img{
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.footer-container {
+    background-color: #ffc109;
+    padding: 30px;
+    color: #666666;
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+}
+.logo img{
+    max-width: 50%;
+    height: auto;
+    margin-bottom: -10px;
+}
+.naam {
+    margin-top: 13px;
+    margin-left: -80px;
+}
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    /* film 1 */
+    .txt {
+        position: relative;
+        right: -50px;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .txt p {
+        position: relative;
+        top: -130px;
+        margin-bottom: 40px;
+    }
+    h2 {
+        background-color: transparent;
+    }
+    .txt h2 {
+        background-color: transparent;
+    }
+    .images img{
+        max-width: 70%;
+        height: auto;
+    }
+    .images {
+        position: relative;
+        left: 65%;
+        margin-top: 20px;
+    }
+    .button {
+        position: relative;
+        right: -240px;
+        top: -140px;
+        padding: 15px;
+        background-color: #ffc109;
+    }
+    .button :hover {
+        color: white;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 20px;
+    }
+    /* film 2 */
+    .images-2 img {
+        max-width: 70%;
+        height: auto;
+        top: 45px;
+        left: 40px;
+    }
+    .button-2 {
+        padding: 15px;
+        background-color: #333333;
+        border-radius: 40px;
+        text-align: center;
+        position: relative;
+        right: -190px;
+        margin-top: -40px;
+        margin-bottom: 80px;
+        background-color: #ffc109;
+        margin-bottom: 200px;
+    }
+    .txt-2 p {
+        margin-top: 100px;
+        margin-bottom: 40px;
+
+
+    }
+    .txt-2 {
+        text-align: right;
+
+    }
+    .txt-2 h2 {
+        position: absolute;
+        top: -110px;;
+        right: 13px;
+        margin-top: 150px;
+    }
+    .button-2 :hover {
+        color: white;
+    }
+    /* film 3 */ 
+    .images-3 img{
+        max-width: 100%;
+        height: auto;
+        top: 20px;
+
+    }
+    .txt-3 {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    .txt-3 p {
+        margin-right: 50px;
+    }
+    
+    .button-3 {
+        padding: 15px;
+        background-color: #333333;
+        border-radius: 40px;
+        text-align: center;
+        position: relative;
+        right: -15px;
+        margin-top: -60px;
+        margin-bottom: 200px;
+        background-color: #ffc109;
+    }
+    
+    .button-3 :hover {
+        color: white;
+    }
+    .txt-3 h2 {
+        position: absolute;
+        top: 10px;
+        left: 7px;
+    }
+    /* film 4 */ 
+    .images-4 img{
+        max-width: 100%;
+        height: auto;
+        top: 18px;
+        left: -40px;
+    }
+    .txt-4 h2 {
+        position: absolute;
+        top: 10px;
+        left: 7px;
+        background-color: transparent;
+    }
+    .txt-4 {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 70px;
+    }
+    .button-4 {
+        padding: 15px;
+        background-color: #333333;
+        border-radius: 40px;
+        text-align: center;
+        position: relative;
+        right: 0;
+        margin-top: -40px;
+        margin-bottom: 200px;
+        background-color: #ffc109;
+    }
+    .txt-4 p {
+        margin-bottom: 70px;
+    }
+    /* film 5 */
+    .images-5 img{
+        max-width: 100%;
+        height: auto;
+    }
+    .images-5 {
+        margin-bottom: 20px;
+    }
+    .txt-5 {
+        text-align: right;
+        margin-top: 80px;
+    }
+    .txt-5 h2 {
+        position: absolute;
+        top: 10px;
+        left: 20px;
+    }
+    .button-5 {
+        padding: 15px;
+        background-color: #333333;
+        border-radius: 40px;
+        text-align: center;
+        position: relative;
+        right: 0;
+        margin-top: 20px;
+        margin-bottom: 150px;
+        background-color: #ffc109;
+    }
+
+    .footer-container {
+        background-color: #ffc109;
+        padding: 30px;
+        color: #666666;
+        font-size: 10px;
+        font-family: 'Lato', sans-serif;
+    }
+    .logo img{
+        max-width: 15%;
+        height: auto;
+        margin-bottom: -10px;
+    }
+    .naam {
+        margin-left: -400px;
+        margin-top: 18px;
+    }
+    .images img, .images-2 img, .images-3 img, .images-4 img, .images-5 img{
+        box-shadow: 5px 5px 30px 5px rgba(102, 102, 102, 0.3);
+    }
+}
+
+
+
